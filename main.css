@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+    header li a {
+    color: #f5f6fa;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    height: 180px;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.article article {
+    margin-bottom:  16px;
+}
+
+.article article h3 {
+    margin-top: 8pxpx;
+    margin-bottom: 8px;
+}
+
+#technology {
+    background-color: rgb(124, 207, 175);
+}
+
+#entertainment {
+    background-color: #43464b;
+}
+
+.img-class {
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+}  
